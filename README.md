@@ -1,0 +1,2 @@
+# CloneSpotify
+First independent project
