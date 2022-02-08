@@ -1,3 +1,14 @@
 *{
-    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+
+#navbar-barra{
+    display: flex;
+    background: rgba(0, 0, 0, 0)
 }
