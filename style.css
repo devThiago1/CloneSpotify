@@ -10,9 +10,37 @@ body{
 
 /* Nav */
 
-#navbar-barra{
+#navbar{
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     justify-content: center;
+}
+
+#navbar .navbar-container{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#navbar .navbar-container .logo{
+    height: 40px;
+    width: auto;
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li{
+    display: flex;
+    padding: 0 20px; 
+}
+
+#navbar .navbar-container ul li:nth-child(3){
+border-left: 1px solid white;
 }
