@@ -15,7 +15,9 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     justify-content: center;
-    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #navbar .navbar-container{
@@ -43,13 +45,25 @@ body{
 }
 
 #navbar .navbar-container ul li:nth-child(3){
-border-left: 2px solid white;
+border-right: 1px solid white;
 }
 
 /* MENU */
 
-.First-text{
+#MENU{
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(img/showcase.webp) center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+
+}
+
+#MENU .texts {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
