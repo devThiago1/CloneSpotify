@@ -67,3 +67,14 @@ border-right: 1px solid white;
     flex-direction: column;
     align-items: center;
 }
+
+.third-text {
+    background: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 50px ;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
